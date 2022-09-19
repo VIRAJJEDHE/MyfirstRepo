@@ -1,0 +1,79 @@
+Spring Core - XML config _ Basic annotations
+Spring mvc - Model View Controller - end to end - both frontent and backend - html,css - add external server
+Spring boot - NO XML + embedded server (Tomcat) - less config - autoconfiguration - Annotations - less coding
+Spring data jpa - Connect with DB and perform CRUD operations on DB - internally uses Hibernate and JPA
+SPring restful services - rest apis - REST architectural style - backend apis - GET, POST, PUT, DELETE
+Spring JDBC - uses JDBC - JDBCTemplate
+Spring security - Authentication and Authorization
+
+
+Frontend
+Angular, React, html,css, js
+web pages
+
+Backend - DB
+rest apis - JSON data - DB - GET, POST, PUT, DELETE
+http - protocol and REST - architectual Style
+CRUD operations on DB
+C - Create
+R - Retrive
+U - Update
+D - Delete
+
+http methods - operations on web services 
+GET - Retreive the data/getting the data
+POST - Create/Insert the data into DB
+PUT - Updating existing data
+DELETE - Deleting the data
+
+rest apis - JSON data
+http://localhost:8090/projects/Springboot - GET
+[
+{
+  "StudentId":1,
+  "StudentName":"Sandhya",
+  "ParentName":"Venkatesh",
+},
+{
+}
+]
+
+Backend to Frontend Integration
+
+javac TestMain.java
+java TestMain
+
+java SPringdemo -jar
+
+mvn clean install
+
+boilerplatecode - unnecessary/ repetitive code - Lombok - reduce boilerplatecodes
+use lombok Annotations - auto generates the code
+
+Presentation / Controller - @Controller - spring mvc and @RestController - SPring restful - http request - GET, POST, PUT, DELETE
+Business / service - @Service - business logic/rules - Exceptions
+Persistence / Repository/dao - @Repository - data layer - CRUD operations on DB - SPring data jpa - hibernate/Jpa
+Database - Actual database
+
+	GET/POST/PUT/DELETE
+	Request(url)
+CLient <--------------> Controller <---------> Service <-----------> Repository <---------------> Database
+	Response(JSON data)  |			|			|
+			     |  		|			|
+			      ============Entity/Model===================
+
+
+Classes in Java ===> Tables in DB
+
+Main dependencies
+Spring boot dev tools - Application restart and live reload
+Spring web - rest apis - spring restful
+Spring data jpa - CRUD operations on DB - Hibernate/Jpa
+Mysql Driver - Database driver
+Lombok - Reducing boilerplate codes
+
+
+
+
+
+
